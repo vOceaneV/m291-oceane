@@ -8,3 +8,5 @@ Je me forme en Médiamatique au CPNV de Sainte-Croix en FPA.
 Je souhaite réaliser quelque chose de créatif et d'utile. 
 ## Comment me trouver
 - GitHub : vOceaneV
+
+_Repo cloné et ouvert dans VS Code._
