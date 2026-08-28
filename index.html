@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Océane - Présentation</title>
+<style>
+  /* Deux polices seulement : une pour les titres, une pour le texte */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;600&display=swap');
+
+  :root {
+    --couleur-fond: #f6f1fa;
+    --couleur-carte: #ffffff;
+    --couleur-texte: #3a2e42;
+    --couleur-accent: #8a6bb0;
+    --couleur-accent-clair: #ece1f7;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+
+  main {
+    background-color: var(--couleur-carte);
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: var(--couleur-accent);
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  p.intro {
+    text-align: center;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--couleur-texte);
+  }
+
+  /* Liste des compétences présentée sous forme de cartes simples */
+  ul.competences {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  ul.competences li {
+    background-color: var(--couleur-accent-clair);
+    padding: 0.9rem 1.1rem;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  a.github {
+    display: block;
+    text-align: center;
+    background-color: var(--couleur-accent);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.9rem 1rem;
+    border-radius: 8px;
+    transition: opacity 0.2s ease;
+  }
+
+  a.github:hover,
+  a.github:focus {
+    opacity: 0.85;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+    color: #777;
+  }
+
+  /* Adaptation pour les petits écrans */
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+    main {
+      padding: 1.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <h1>Océane</h1>
+  <p class="intro">J'aime créer et découvrir de nouvelles choses.</p>
+
+  <h2>Mes compétences et envies</h2>
+  <ul class="competences">
+    <li>📷 Photographie</li>
+    <li>📖 Lecture</li>
+    <li>🎨 Design</li>
+    <li>✨ Création en tout genre</li>
+  </ul>
+
+  <a class="github" href="https://github.com/vOceaneV" target="_blank" rel="noopener noreferrer">
+    Mon profil GitHub est par ici
+  </a>
+
+  <footer>
+    <p>📷 📖 🎨 ✨</p>
+  </footer>
+</main>
+
+</body>
+</html>
