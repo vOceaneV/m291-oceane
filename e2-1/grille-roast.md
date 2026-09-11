@@ -9,3 +9,12 @@ Barème : 1 = cassé · 3 = moyen · 5 = ça va (ces pages n’auront jamais 5 p
 
 ## la pire capture 
 La pire capture est la numéro 04 parce que c'est celle devant laquelle il est le plus dure de rester, le fond est trop présent et l'experience n'est pas bonne (compliquer de se repérer)
+
+## annotations 
+Capture 01 : tout le texte a la même taille
+
+Capture 02 : le bourton "Aide?" est la première chose qui attire le regard avant le titre 
+
+Capture 03 : les conditions ne sont pas assez visible et se trouve après le "bouton"
+
+Capture 04 : quatre polices différentes --> trop 
