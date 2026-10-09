@@ -15,4 +15,4 @@ _Repo cloné et ouvert dans VS Code._
 Page profil : https://voceanev.github.io/m291-oceane/ 
  
 ## Dossier design 
-(Voir le dossier design)(./design)
+[Voir le dossier design](./design)
