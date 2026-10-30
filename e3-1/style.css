@@ -1,0 +1,469 @@
+:root {
+  /* Palette */
+  --color-bg: #f5ebd8;               /* crème (haut du fond) */
+  --color-bg-bottom: #eadfc6;        /* crème un peu plus foncé (bas du fond) */
+  --color-surface: #fef9ec;          /* champ de recherche et cartes */
+  --color-text: #2e2018;
+  --color-text-muted: #6b5640;
+  --color-primary: #5b6a31;          /* vert olive */
+  --color-primary-hover: #4a5728;
+  --color-primary-shadow: #3b4720;
+  --color-accent: #a5542f;           /* terracotta */
+  --color-accent-hover: #8f4625;
+  --color-accent-shadow: #78391c
+  --color-bronze: #8a5a14;             /* 3e étagère */
+  --color-border: #8a6d4e;           /* contour du champ de recherche */
+  --color-border-soft: #e3d6b8;      /* contour des cartes */
+  --color-shadow-soft: #d9c9a5;      /* ombre sous les éléments */
+  --color-chip: #e4d9bf;             /* bouton recherche avancée */
+  --color-chip-text: #4f5e27;
+  --color-on-accent: #ffffff;        /* texte sur fond olive / terracotta / bronze */
+  --color-placeholder: #7a6650;
+
+  /* Typographie */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+
+  /* Échelle typographique modulaire : base 1rem, rapport 1,2 (tierce mineure) */
+  --text-xs: 0.833rem;   /* pied de page */
+  --text-base: 1rem;     /* texte courant, champs, boutons */
+  --text-md: 1.2rem;     /* compteurs */
+  --text-lg: 1.44rem;    /* « Mes étagères » */
+  --text-xl: 1.728rem;   /* titres des cartes */
+  --text-2xl: 2.074rem;  /* titre HappyPAL (mobile), icônes */
+  --text-3xl: 2.488rem;
+  --text-4xl: 2.986rem;  /* titre HappyPAL (bureau), icônes (bureau) */
+
+  /* Espacements */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --gutter: 20px;
+
+  /* Formes */
+  --radius-card: 20px;
+  --radius-inner: 16px;  /* liseré en pointillés, panneau de filtres */
+  --radius-pill: 999px;
+}
+
+/* ---------- Base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  background-image: linear-gradient(180deg, var(--color-bg), var(--color-bg-bottom));
+}
+
+/* Texte lisible uniquement par les lecteurs d'écran */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- En-tête ---------- */
+header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--space-3);
+  width: 100%;
+  margin-inline: auto;
+  padding: var(--space-4) var(--gutter) 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 6.8vw, var(--text-2xl));
+  line-height: 1.1;
+  white-space: nowrap;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.pal {
+  color: var(--color-accent);
+}
+
+.pousse {
+  display: inline-block;
+  width: 0.85em;
+  height: auto;
+  margin-left: 0.15em;
+  vertical-align: top;
+  stroke: var(--color-primary);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.slogan {
+  margin: var(--space-2) 0 0;
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+}
+
+/* ---------- Boutons ---------- */
+.btn-primaire {
+  min-height: 50px;
+  padding: 0 16px;
+  font: 700 var(--text-base)/1 var(--font-sans);
+  white-space: nowrap;
+  color: var(--color-on-accent);
+  background-color: var(--color-primary);
+  border: 0;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 0 var(--color-primary-shadow);
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primaire:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-primaire:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--color-primary-shadow);
+}
+
+.btn-loupe {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  color: var(--color-on-accent);
+  background-color: var(--color-accent);
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 var(--color-accent-shadow);
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-loupe svg {
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.btn-loupe:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.btn-loupe:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--color-accent-shadow);
+}
+
+/* ---------- Recherche ---------- */
+.recherche {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-3);
+  width: 100%;
+  margin-inline: auto;
+}
+
+.recherche-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.champ-recherche {
+  flex: 1;
+  min-width: 0;
+  height: 52px;
+  padding: 0 var(--space-4);
+  font: var(--text-base) var(--font-sans);
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  box-shadow: 0 3px 0 var(--color-shadow-soft);
+  appearance: none;
+}
+
+.champ-recherche::placeholder {
+  color: var(--color-placeholder);
+}
+
+/* Recherche avancée (<details>) */
+.recherche-avancee summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 18px;
+  font-weight: 700;
+  font-size: var(--text-base);
+  color: var(--color-chip-text);
+  background-color: var(--color-chip);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  list-style: none;
+}
+
+.recherche-avancee summary::-webkit-details-marker {
+  display: none;
+}
+
+.recherche-avancee summary::after {
+  content: "";
+  border-inline: 5px solid transparent;
+  border-top: 6px solid currentColor;
+  transition: transform 0.2s ease;
+}
+
+.recherche-avancee[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.filtres {
+  margin-top: var(--space-3);
+  padding: var(--space-3);
+  color: var(--color-text-muted);
+  background-color: var(--color-surface);
+  border: 2px dashed var(--color-border-soft);
+  border-radius: var(--radius-inner);
+}
+
+.filtres p {
+  margin: 0;
+}
+
+/* Focus clavier visible */
+.btn-primaire:focus-visible,
+.btn-loupe:focus-visible,
+.champ-recherche:focus-visible,
+.recherche-avancee summary:focus-visible {
+  outline: 3px solid var(--color-text);
+  outline-offset: 3px;
+}
+
+/* ---------- Contenu principal et grille de cartes ---------- */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: var(--space-4) var(--gutter) var(--space-5);
+}
+
+.titre-etageres {
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.cartes-grille {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem); /* 1 colonne centrée sur mobile */
+  justify-content: center;
+  gap: var(--space-4);
+}
+
+/* Carte = étagère cliquable */
+.carte {
+  --accent: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-card);
+  box-shadow: 0 6px 0 var(--color-shadow-soft);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.carte--pal {
+  --accent: var(--color-primary);
+}
+
+.carte--wishlist {
+  --accent: var(--color-bronze);
+}
+
+/* Bandeau de couleur en haut de la carte */
+.carte::before {
+  content: "";
+  display: block;
+  height: 12px;
+  background-color: var(--accent);
+}
+
+.carte:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 9px 0 var(--color-shadow-soft);
+}
+
+.carte:active {
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 var(--color-shadow-soft);
+}
+
+.carte:has(.carte-lien:focus-visible) {
+  outline: 3px solid var(--color-text);
+  outline-offset: 4px;
+}
+
+/* Le lien remplit toute la carte, avec un liseré « couture » en pointillés */
+.carte-lien {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  margin: 4px var(--space-2) var(--space-2);
+  padding: var(--space-3) var(--space-2) 14px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  border: 2px dashed color-mix(in srgb, var(--accent) 35%, transparent);
+  border-radius: var(--radius-inner);
+}
+
+.carte-lien:focus-visible {
+  outline: none;
+}
+
+.carte-icone {
+  font-size: var(--text-2xl);
+  line-height: 1.1;
+}
+
+.carte h3 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.etat {
+  margin: 0;
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+}
+
+.compteur {
+  min-width: 50px;
+  margin-top: var(--space-2);
+  padding: 8px 22px;
+  font-family: var(--font-serif);
+  font-size: var(--text-md);
+  line-height: 1;
+  font-weight: 700;
+  color: var(--color-on-accent);
+  background-color: var(--accent);
+  border-radius: var(--radius-pill);
+}
+
+/* ---------- Pied de page ---------- */
+footer {
+  padding: var(--space-4) var(--gutter);
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+footer p {
+  margin: 0;
+}
+
+/* ---------- Bureau : dès 768 px ---------- */
+@media (min-width: 768px) {
+  :root {
+    --gutter: 40px;
+  }
+
+  header {
+    max-width: 68rem;
+    row-gap: var(--space-4);
+    padding-top: var(--space-5);
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+  }
+
+  .recherche {
+    max-width: 46rem;
+  }
+
+  main {
+    padding-top: var(--space-5);
+  }
+
+  .titre-etageres {
+    margin-bottom: var(--space-5);
+    font-size: var(--text-xl);
+  }
+
+  .cartes-grille {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-5);
+  }
+
+  .carte-lien {
+    min-height: 15rem;
+    padding: var(--space-5) var(--space-3);
+  }
+
+  .carte-icone {
+    font-size: var(--text-4xl);
+  }
+
+  .carte h3 {
+    font-size: var(--text-2xl);
+  }
+}
+
+/* ---------- Respect de la sensibilité au mouvement ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+
+  .carte:hover,
+  .carte:active,
+  .btn-primaire:active,
+  .btn-loupe:active {
+    transform: none;
+  }
+}

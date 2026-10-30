@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HappyPAL, ma bibliothèque virtuelle privée : livres lus, pile à lire et wish list.">
+  <title>HappyPAL — Ma bibliothèque virtuelle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="marque">
+      <h1>
+        Happy<span class="pal">PAL</span>
+        <!-- Petite pousse décorative -->
+        <svg class="pousse" width="28" height="34" viewBox="0 0 28 34" fill="none" aria-hidden="true" focusable="false">
+          <path d="M14 31V17" />
+          <path d="M14 19C6 19 4.5 12.5 4.5 9C12 9 14 13 14 19Z" />
+          <path d="M14 16C14 10 18 5.5 25 5.5C25 11.5 21 16 14 16Z" />
+        </svg>
+      </h1>
+      <p class="slogan">Ma bibliothèque virtuelle · privée</p>
+    </div>
+
+    <button type="button" class="btn-primaire">+ Nouvelle fiche</button>
+
+    <nav class="recherche" aria-label="Recherche dans ma bibliothèque">
+      <form class="recherche-form" role="search" action="#" method="get">
+        <label class="sr-only" for="recherche">Rechercher un livre par titre ou auteur</label>
+        <input type="search" id="recherche" name="q" class="champ-recherche"
+               placeholder="Titre, auteur…" autocomplete="off">
+        <button type="submit" class="btn-loupe" aria-label="Rechercher">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+            <circle cx="10" cy="10" r="6.5" />
+            <path d="M15 15L21 21" />
+          </svg>
+        </button>
+      </form>
+
+      <details class="recherche-avancee">
+        <summary>Recherche avancée</summary>
+        <div class="filtres">
+          <!-- Les filtres (état, type…) viendront en semaine 12 -->
+          <p>En construction !</p>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="titre-etageres" id="titre-etageres">Mes étagères</h2>
+
+    <section class="cartes-grille" aria-labelledby="titre-etageres">
+
+      <article class="carte carte--lus">
+        <a class="carte-lien" href="#bibliotheque">
+          <span class="carte-icone" aria-hidden="true">📖</span>
+          <h3>Bibliothèque</h3>
+          <p class="etat">Lus</p>
+          <span class="compteur"><span class="sr-only"> livres</span></span>
+        </a>
+      </article>
+
+      <article class="carte carte--pal">
+        <a class="carte-lien" href="#pal">
+          <span class="carte-icone" aria-hidden="true">📚</span>
+          <h3>PAL</h3>
+          <p class="etat">À lire</p>
+          <span class="compteur"><span class="sr-only"> livres</span></span>
+        </a>
+      </article>
+
+      <article class="carte carte--wishlist">
+        <a class="carte-lien" href="#wishlist">
+          <span class="carte-icone" aria-hidden="true">🧺</span>
+          <h3>Wish list</h3>
+          <p class="etat">À acheter</p>
+          <span class="compteur"><span class="sr-only"> livres</span></span>
+        </a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Application de gestion de bibliothèque - Océane - ICT 291</p>
+  </footer>
+
+</body>
+</html>
