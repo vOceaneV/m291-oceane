@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "titre": "La Parole des étoiles",
+    "auteur": "Louise Langlois",
+    "etat": "bibliotheque",
+    "type": "roman",
+    "couverture": "images/la-parole-des-etoiles.jpg",
+    "resume": "Thalia, Julian, Charlotte, Ethan. Ils n'ont rien en commun, du moins en apparence. L'une s'étouffe avec sa propre colère, l'autre joue les leaders, la troisième se veut irréprochable, et le dernier s'emmure dans le silence. Mais derrière les masques, des fêlures, des cicatrices qui ne guérissent pas... Réunis dans un groupe de parole imposé par la psychologue de leur lycée, ils sont contraints de poser des mots sur leurs maux. Au fil des semaines, les barrières tombent. Entre silences partagés, éclats de rire inattendus et confidences douloureuses, naissent des liens plus puissants qu'ils ne l'auraient imaginé, des amitiés sincères, et même des sentiments... Et si les quatre adolescents apprenaient que même les plus petites étoiles parviennent à briller dans l'obscurité ? Ce sont les plus brisés qui en savent le plus sur la vie."
+  },
+  {
+    "id": 2,
+    "titre": "Promets-moi de vivre",
+    "auteur": "Inès Leia",
+    "etat": "bibliotheque",
+    "type": "new romance",
+    "couverture": "images/promets-moi-de-vivre.jpg",
+    "resume": "Anastasia a perdu l’envie de sourire. Sa sœur jumelle, Ellie, vient de décéder des suites d’une maladie, et rien ne pourrait consoler le chagrin immense qui étreint son cœur. Elle en est persuadée, aucune lumière ne l’attend au bout du tunnel. Mais Ana a fait une promesse qu’elle se doit de tenir coûte que coûte : elle accomplira chacune des missions que sa sœur a inscrites sur sa Bucket List, dans l’espoir qu’elle retrouve le goût de vivre. Et la première, « danser dans un bar », lui a déjà donné du fil à retordre. Alors qu’elle s’abandonnait à la musique, les mains d’un inconnu posées sur ses hanches l’ont bercée de douceur… Depuis cet instant, ce dernier remet en question toutes ses certitudes. Alex est un sportif apprécié de tous, entouré d’une bande d’amis soudés. Il n’a aucune idée des tourments qui hantent Ana. Alors pourquoi se sent-elle aussi vivante sous son regard incandescent ? Et surtout, est-elle prête à le laisser réécrire la fin de son histoire ?"
+  },
+  {
+    "id": 3,
+    "titre": "Promets-moi d'aimer",
+    "auteur": "Inès Leia",
+    "etat": "pal",
+    "type": "new romance",
+    "couverture": "images/promets-moi-d-aimer.jpg",
+    "resume": "Willow est fêtarde, insouciante, peut-être frivole pour les mauvaises langues. Mais qui sait réellement quelles blessures elle cache derrière son sourire ? Elle s’est sentie si abandonnée, enfant, qu’elle a ensuite décidé de ne vivre que pour elle et son bon plaisir. Pas d’attaches, et surtout pas de romance, l’idée d’aimer à nouveau et d’être brisée la terrifie. Pourtant quelqu’un semble tout savoir d’elle : Jayden, l’un de ses plus proches amis et sans doute le plus attentif, le plus tendre… et le plus respectueux de sa précieuse liberté ainsi que de son désir de célibat. À trop regarder en arrière, Willow ne risque-t-elle pas de passer à côté de sa plus belle histoire d’amour ?"
+  },
+  {
+    "id": 4,
+    "titre": "Promets-moi de rester",
+    "auteur": "Inès Leia",
+    "etat": "wishlist",
+    "type": "new romance",
+    "couverture": "images/promets-moi-de-rester.jpg",
+    "resume": "Pour Callie Wells, les mots sont une bouée de sauvetage et les lettres, un moyen de rester à la surface. À vingt-trois ans, elle a vu les promesses d’un avenir meilleur s’éteindre une à une. Entre les études qu’elle n’arrive plus à suivre, les petits boulots et le poids du passé, elle s’effondre en silence. Mais les ombres du passé ne lâchent jamais prise bien longtemps. Et puis, il y a Caleb. Son ami. Celui qu’elle voudrait garder à distance. Avec sa douceur désarmante, il fissure peu à peu les défenses qu’elle croyait indestructibles. Au bord du gouffre, Callie doit choisir : fuir encore… ou espérer qu’on peut la retenir avant qu’elle ne tombe."
+  },
+  {
+    "id": 5,
+    "titre": "Un cosy latte pour deux",
+    "auteur": "Marie F. Florie",
+    "etat": "pal",
+    "type": "cosy romance",
+    "couverture": "images/un-cosy-latte-pour-deux.jpg",
+    "resume": "De retour à l’université de York, en Angleterre, après un accident qui a bouleversé sa vie et l'a coupé de sa passion pour le tir à l'arc, Orion n’a qu’un objectif pour sa dernière année : se recentrer sur lui et s’isoler de tout ce qui lui rappelle son passé. C’était compter sans l’arrivée de Lucy, sa nouvelle colocataire à la bonne humeur aussi addictive qu’un pumpkin spice latte. Pour l’étudiante franco-britannique, cette rentrée à York est une aubaine. Fan inconditionnelle de l’automne, Lucy veut profiter de sa saison préférée pour savourer le charme de la ville aux côtés d’Orion. Entre lattes réconfortants et confidences nocturnes, cet automne promet d’être cosy et délicieusement romantique…"
+  }
+]
