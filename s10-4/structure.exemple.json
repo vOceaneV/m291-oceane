@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nom": "Café de la Gare",
+    "quartier": "Centre",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Grandes tables, prises électriques, ferme à 22 h.",
+    "horaire": "Tous les jours, 6 h – 22 h"
+  },
+  {
+    "id": 2,
+    "nom": "Salle 204",
+    "quartier": "École",
+    "ouvert": false,
+    "bruit": 1,
+    "resume": "Salle de projet, ouverte les soirs de cours.",
+    "horaire": "Lundi et jeudi, 18 h – 21 h"
+  }
+]
