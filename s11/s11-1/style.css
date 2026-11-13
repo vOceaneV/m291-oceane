@@ -1,0 +1,155 @@
+/* Phare : styles fournis. Vous n'avez pas besoin de les modifier. */
+
+:root {
+  --fond: #f6f4ef;
+  --carte: #ffffff;
+  --texte: #1f2328;
+  --discret: #57606a;
+  --accent: #1d4ed8;
+  --ouvert: #116329;
+  --ferme: #8a4600;
+  --erreur: #b42318;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: var(--fond);
+  color: var(--texte);
+}
+
+header,
+main {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0.25rem 0 0;
+  color: var(--discret);
+}
+
+/* Champs, boutons et formulaire */
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+input {
+  width: 100%;
+  max-width: 28rem;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  border: 2px solid var(--discret);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+button {
+  min-height: 44px;
+  min-width: 44px;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  border: 2px solid var(--accent);
+  border-radius: 0.5rem;
+  background: #fff;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+button[type="submit"],
+button[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fff;
+}
+
+input:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+form {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--carte);
+  border-radius: 0.75rem;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+#erreurs {
+  color: var(--erreur);
+  font-weight: 600;
+  min-height: 1.5em;
+}
+
+#aucun-resultat {
+  font-weight: 600;
+}
+
+/* Les cartes */
+
+#liste-cartes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.carte {
+  background: var(--carte);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.12);
+}
+
+.carte h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
+}
+
+.carte p {
+  margin: 0.25rem 0;
+}
+
+.quartier {
+  color: var(--discret);
+}
+
+.etat {
+  font-weight: 700;
+}
+
+.etat.ouvert {
+  color: var(--ouvert);
+}
+
+.etat.ferme {
+  color: var(--ferme);
+}
+
+/* Le message d'état : chargement, erreur, liste vide */
+
+#etat {
+  font-weight: 600;
+  min-height: 1.5em;
+}

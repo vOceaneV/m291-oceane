@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "nom": "Café de la Gare",
+    "quartier": "Centre",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Grandes tables, prises électriques, ferme à 22 h.",
+    "horaire": "Tous les jours, 6 h – 22 h"
+  },
+  {
+    "id": 2,
+    "nom": "Salle 204",
+    "quartier": "École",
+    "ouvert": false,
+    "bruit": 1,
+    "resume": "Salle de projet, ouverte les soirs de cours.",
+    "horaire": "Lundi et jeudi, 18 h – 21 h"
+  },
+  {
+    "id": 3,
+    "nom": "Bibliothèque du Parc",
+    "quartier": "Bellevaux",
+    "ouvert": true,
+    "bruit": 1,
+    "resume": "Silence demandé, wifi, places près des fenêtres.",
+    "horaire": "Lundi – samedi, 10 h – 20 h"
+  },
+  {
+    "id": 4,
+    "nom": "Laverie des Mouettes",
+    "quartier": "Ouchy",
+    "ouvert": true,
+    "bruit": 3,
+    "resume": "Machines qui tournent, bancs, prise sous le comptoir.",
+    "horaire": "Tous les jours, 7 h – 23 h"
+  },
+  {
+    "id": 5,
+    "nom": "Salle d'attente de la gare",
+    "quartier": "Centre",
+    "ouvert": true,
+    "bruit": 4,
+    "resume": "Chauffée, annonces fréquentes, ouverte tard.",
+    "horaire": "Tous les jours, 5 h – 1 h"
+  },
+  {
+    "id": 6,
+    "nom": "Maison de quartier des Faverges",
+    "quartier": "Chailly",
+    "ouvert": false,
+    "bruit": 2,
+    "resume": "Ateliers le mercredi, sinon très calme.",
+    "horaire": "Mardi – vendredi, 14 h – 20 h"
+  },
+  {
+    "id": 7,
+    "nom": "Espace jeunes du Vallon",
+    "quartier": "Vallon",
+    "ouvert": true,
+    "bruit": 3,
+    "resume": "Canapés, jeux de société, animateur présent.",
+    "horaire": "Mercredi – samedi, 15 h – 22 h"
+  },
+  {
+    "id": 8,
+    "nom": "Hall du centre sportif",
+    "quartier": "Malley",
+    "ouvert": true,
+    "bruit": 4,
+    "resume": "Bancs, distributeur d'eau, bruit des matchs.",
+    "horaire": "Tous les jours, 8 h – 22 h 30"
+  },
+  {
+    "id": 9,
+    "nom": "Salle d'étude du Gymnase",
+    "quartier": "Béthusy",
+    "ouvert": false,
+    "bruit": 1,
+    "resume": "Réservée aux élèves, tables individuelles.",
+    "horaire": "Lundi – vendredi, 7 h 30 – 18 h"
+  },
+  {
+    "id": 10,
+    "nom": "Galerie couverte du Flon",
+    "quartier": "Flon",
+    "ouvert": true,
+    "bruit": 3,
+    "resume": "Abritée, éclairée, musique dans les commerces.",
+    "horaire": "Tous les jours, 8 h – 0 h"
+  },
+  {
+    "id": 11,
+    "nom": "Jardin du Musée",
+    "quartier": "Montbenon",
+    "ouvert": false,
+    "bruit": 1,
+    "resume": "Bancs à l'ombre, fermé quand il pleut.",
+    "horaire": "Mai – septembre, 10 h – 19 h"
+  },
+  {
+    "id": 12,
+    "nom": "Kiosque de la Riponne",
+    "quartier": "Riponne",
+    "ouvert": true,
+    "bruit": 3,
+    "resume": "Petite terrasse couverte, passage du marché.",
+    "horaire": "Lundi – samedi, 6 h 30 – 21 h"
+  },
+  {
+    "id": 13,
+    "nom": "Salle polyvalente de Prélaz",
+    "quartier": "Prélaz",
+    "ouvert": false,
+    "bruit": 2,
+    "resume": "Ouverte pour les répétitions du chœur.",
+    "horaire": "Mardi, 19 h – 22 h"
+  },
+  {
+    "id": 14,
+    "nom": "Coin lecture de la Poste",
+    "quartier": "Sous-Gare",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Trois fauteuils, journaux du jour.",
+    "horaire": "Lundi – vendredi, 8 h – 19 h"
+  },
+  {
+    "id": 15,
+    "nom": "Atelier vélo solidaire",
+    "quartier": "Sébeillon",
+    "ouvert": false,
+    "bruit": 3,
+    "resume": "Outils en libre-service, conseils le samedi.",
+    "horaire": "Samedi, 10 h – 16 h"
+  },
+  {
+    "id": 16,
+    "nom": "Ludothèque des Boveresses",
+    "quartier": "Boveresses",
+    "ouvert": true,
+    "bruit": 3,
+    "resume": "Jeux à emprunter, tables pour jouer sur place.",
+    "horaire": "Mercredi et samedi, 14 h – 18 h"
+  },
+  {
+    "id": 17,
+    "nom": "Pavillon du lac",
+    "quartier": "Vidy",
+    "ouvert": false,
+    "bruit": 2,
+    "resume": "Vue sur l'eau, vent fréquent, aucune prise.",
+    "horaire": "Avril – octobre, 9 h – 20 h"
+  },
+  {
+    "id": 18,
+    "nom": "Salle de lecture de l'Université",
+    "quartier": "Dorigny",
+    "ouvert": true,
+    "bruit": 1,
+    "resume": "Ouverte au public, carte non requise le soir.",
+    "horaire": "Lundi – vendredi, 8 h – 22 h"
+  },
+  {
+    "id": 19,
+    "nom": "Hall du cinéma Capitole",
+    "quartier": "Centre",
+    "ouvert": true,
+    "bruit": 3,
+    "resume": "Banquettes, file d'attente avant les séances.",
+    "horaire": "Tous les jours, 13 h – 23 h"
+  },
+  {
+    "id": 20,
+    "nom": "Maison de quartier de la Pontaise",
+    "quartier": "Pontaise",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Salle commune, wifi, thé offert le jeudi.",
+    "horaire": "Lundi – vendredi, 16 h – 21 h"
+  },
+  {
+    "id": 21,
+    "nom": "Banc couvert de la Cité",
+    "quartier": "Cité",
+    "ouvert": true,
+    "bruit": 1,
+    "resume": "Sous les arcades, éclairé toute la nuit.",
+    "horaire": "Toujours accessible"
+  },
+  {
+    "id": 22,
+    "nom": "Salle informatique du Centre de formation",
+    "quartier": "Malley",
+    "ouvert": false,
+    "bruit": 2,
+    "resume": "Postes en libre accès pour les apprentis.",
+    "horaire": "Lundi – jeudi, 17 h – 20 h"
+  },
+  {
+    "id": 23,
+    "nom": "Galerie du Musée d'art",
+    "quartier": "Plateforme 10",
+    "ouvert": true,
+    "bruit": 1,
+    "resume": "Entrée libre le premier samedi du mois.",
+    "horaire": "Mardi – dimanche, 10 h – 18 h"
+  },
+  {
+    "id": 24,
+    "nom": "Terrasse de la piscine couverte",
+    "quartier": "Mon-Repos",
+    "ouvert": false,
+    "bruit": 4,
+    "resume": "Bruit des plongeons, chaud même en hiver.",
+    "horaire": "Lundi – samedi, 7 h – 21 h"
+  },
+  {
+    "id": 25,
+    "nom": "Espace coworking associatif",
+    "quartier": "Sévelin",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Places à la journée, café en libre-service.",
+    "horaire": "Lundi – vendredi, 8 h – 22 h"
+  },
+  {
+    "id": 26,
+    "nom": "Salle d'attente de l'hôpital de jour",
+    "quartier": "Bugnon",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Calme, lumière forte, réservée aux visiteurs.",
+    "horaire": "Tous les jours, 8 h – 20 h"
+  },
+  {
+    "id": 27,
+    "nom": "Chapelle ouverte de Saint-Jean",
+    "quartier": "Cour",
+    "ouvert": false,
+    "bruit": 1,
+    "resume": "Silence absolu, bancs en bois.",
+    "horaire": "Samedi et dimanche, 9 h – 17 h"
+  },
+  {
+    "id": 28,
+    "nom": "Hall de la patinoire",
+    "quartier": "Malley",
+    "ouvert": true,
+    "bruit": 5,
+    "resume": "Musique forte, gradins chauffés.",
+    "horaire": "Octobre – mars, 9 h – 22 h"
+  },
+  {
+    "id": 29,
+    "nom": "Salon de la bibliothèque jeunesse",
+    "quartier": "Chauderon",
+    "ouvert": true,
+    "bruit": 2,
+    "resume": "Poufs, BD, enfants l'après-midi.",
+    "horaire": "Mardi – samedi, 10 h – 19 h"
+  },
+  {
+    "id": 30,
+    "nom": "Local des scouts de Montoie",
+    "quartier": "Montoie",
+    "ouvert": false,
+    "bruit": 3,
+    "resume": "Grande salle, ouverte les soirs de réunion.",
+    "horaire": "Vendredi, 18 h 30 – 21 h 30"
+  }
+]
