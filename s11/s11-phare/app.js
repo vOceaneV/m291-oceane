@@ -14,6 +14,7 @@ function afficherLieux(liste) {
 }
 
 // ----- Votre code de la semaine 11 commence ici -----
+zoneEtat.textContent = "Chargement des lieux…";
 fetch("data.json")
  .then(function (reponse) {
  return reponse.json();
@@ -21,6 +22,7 @@ fetch("data.json")
  .then(function (donnees) {
  console.log(donnees.length);
  tousLesLieux = donnees;
+ zoneEtat.textContent = "";
  console.log(tousLesLieux.length);
  console.log(donnees[0]);
  console.log(donnees[0].nom);
