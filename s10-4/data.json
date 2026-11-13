@@ -43,5 +43,230 @@
     "type": "cosy romance",
     "couverture": "images/un-cosy-latte-pour-deux.jpg",
     "resume": "De retour à l’université de York, en Angleterre, après un accident qui a bouleversé sa vie et l'a coupé de sa passion pour le tir à l'arc, Orion n’a qu’un objectif pour sa dernière année : se recentrer sur lui et s’isoler de tout ce qui lui rappelle son passé. C’était compter sans l’arrivée de Lucy, sa nouvelle colocataire à la bonne humeur aussi addictive qu’un pumpkin spice latte. Pour l’étudiante franco-britannique, cette rentrée à York est une aubaine. Fan inconditionnelle de l’automne, Lucy veut profiter de sa saison préférée pour savourer le charme de la ville aux côtés d’Orion. Entre lattes réconfortants et confidences nocturnes, cet automne promet d’être cosy et délicieusement romantique…"
+  },
+  {
+    "id": 6,
+    "titre": "Le Voyage d'Ours-Lune",
+    "auteur": "Ho",
+    "etat": "bibliotheque",
+    "type": "manga",
+    "couverture": "images/le-voyage-d-ours-lune.jpg",
+    "resume": "Un ours solitaire, séparé de sa famille depuis l'enfance, voit son quotidien changer quand une corneille venue de la ville se pose près de lui : ensemble, ils partent pour un voyage à travers la nature japonaise."
+  },
+  {
+    "id": 7,
+    "titre": "Kingdom of Quartz 1",
+    "auteur": "Bomhat",
+    "etat": "bibliotheque",
+    "type": "manga",
+    "couverture": "images/kingdom-of-quartz-1.jpg",
+    "resume": "Dans le royaume de Quartz, Blue, orpheline rejetée à cause de ses ailes noires, rêve de rejoindre les Anges, ces guerriers qui protègent la population des Démons. Face à l'horreur, un pouvoir inquiétant s'éveille en elle."
+  },
+  {
+    "id": 8,
+    "titre": "Kingdom of Quartz 2",
+    "auteur": "Bomhat",
+    "etat": "bibliotheque",
+    "type": "manga",
+    "couverture": "images/kingdom-of-quartz-2.jpg",
+    "resume": "Suite des aventures de Blue, l'orpheline aux ailes noires qui veut devenir Ange dans le royaume de Quartz."
+  },
+  {
+    "id": 9,
+    "titre": "Le Château solitaire dans le miroir",
+    "auteur": "Mizuki Tsujimura",
+    "etat": "bibliotheque",
+    "type": "roman",
+    "couverture": "images/le-chateau-solitaire-dans-le-miroir.jpg",
+    "resume": "Kokoro, collégienne qui n'ose plus aller en classe, voit son miroir s'illuminer et y entre : elle découvre un château où six autres jeunes ont aussi accès, avec pour mission de trouver une clé qui exauce un vœu."
+  },
+  {
+    "id": 10,
+    "titre": "Heartstopper 1",
+    "auteur": "Alice Oseman",
+    "etat": "bibliotheque",
+    "type": "bande dessinée",
+    "couverture": "images/heartstopper-1.jpg",
+    "resume": "Charlie et Nick, deux lycéens que tout semble séparer, se retrouvent côte à côte en classe : leur amitié devient peu à peu bien plus que ça."
+  },
+  {
+    "id": 11,
+    "titre": "Heartstopper 2",
+    "auteur": "Alice Oseman",
+    "etat": "bibliotheque",
+    "type": "bande dessinée",
+    "couverture": "images/heartstopper-2.jpg",
+    "resume": "Charlie et Nick vivent leur histoire naissante, pendant que Nick s'interroge sur lui-même et sur ce qu'il veut dire à son entourage."
+  },
+  {
+    "id": 12,
+    "titre": "Heartstopper 3",
+    "auteur": "Alice Oseman",
+    "etat": "bibliotheque",
+    "type": "bande dessinée",
+    "couverture": "images/heartstopper-3.jpg",
+    "resume": "Charlie, Nick et leur bande d'amis partent en voyage scolaire à Paris."
+  },
+  {
+    "id": 13,
+    "titre": "Heartstopper 4",
+    "auteur": "Alice Oseman",
+    "etat": "bibliotheque",
+    "type": "bande dessinée",
+    "couverture": "images/heartstopper-4.jpg",
+    "resume": "On retrouve Charlie et Nick, deux lycéens anglais dont l'histoire se poursuit."
+  },
+  {
+    "id": 14,
+    "titre": "Heartstopper 5",
+    "auteur": "Alice Oseman",
+    "etat": "bibliotheque",
+    "type": "bande dessinée",
+    "couverture": "images/heartstopper-5.jpg",
+    "resume": "On retrouve Charlie et Nick, deux lycéens anglais dont l'histoire se poursuit."
+  },
+  {
+    "id": 15,
+    "titre": "Heartstopper 6",
+    "auteur": "Alice Oseman",
+    "etat": "bibliotheque",
+    "type": "bande dessinée",
+    "couverture": "images/heartstopper-6.jpg",
+    "resume": "On retrouve Charlie et Nick, deux lycéens anglais dont l'histoire se poursuit."
+  },
+  {
+    "id": 16,
+    "titre": "Le bretzel perdu de Noël",
+    "auteur": "Ena Fitzbel",
+    "etat": "pal",
+    "type": "romance",
+    "couverture": "images/le-bretzel-perdu-de-noel.jpg",
+    "resume": "Comédie de Noël cosy d'Ena Fitzbel, dans l'ambiance de ses histoires imprégnées de bretzels."
+  },
+  {
+    "id": 17,
+    "titre": "Kingdom of Quartz 3",
+    "auteur": "Bomhat",
+    "etat": "pal",
+    "type": "manga",
+    "couverture": "images/kingdom-of-quartz-3.jpg",
+    "resume": "Blue a rejoint l'Académie d'Hélios, où l'on forme les Anges, avec un seul rêve : devenir Archange."
+  },
+  {
+    "id": 18,
+    "titre": "Le Garçon et le Dragon",
+    "auteur": "Idonaka",
+    "etat": "pal",
+    "type": "manga",
+    "couverture": "images/le-garcon-et-le-dragon.jpg",
+    "resume": "Shitarô, un collégien qui a tout oublié, se réveille sur un banc près d'un sanctuaire et y rencontre un dragon qui attend sa fiancée depuis des siècles."
+  },
+  {
+    "id": 19,
+    "titre": "Attracted",
+    "auteur": "Marzia Myers",
+    "etat": "pal",
+    "type": "new romance",
+    "couverture": "images/attracted.jpg",
+    "resume": "Elle veut repartir de zéro malgré son passé, mais Jayden Ace Evans, son opposé, la met hors d'elle. Entre silences tendus et confrontations, leurs fêlures pourraient les rapprocher ou les faire chuter."
+  },
+  {
+    "id": 20,
+    "titre": "Saved",
+    "auteur": "Marzia Myers",
+    "etat": "pal",
+    "type": "new romance",
+    "couverture": "images/saved.jpg",
+    "resume": "Spin-off d'Attracted. Esteos s'apprête à quitter Jacksonville pour rejoindre l'équipe de football de Dallas, quand une rencontre vient ajouter du mystère à sa vie parfaite."
+  },
+  {
+    "id": 21,
+    "titre": "Notre plus belle obscurité",
+    "auteur": "Livia L. Hohota",
+    "etat": "pal",
+    "type": "romance",
+    "couverture": "images/notre-plus-belle-obscurite.jpg",
+    "resume": "À dix-sept ans, Elaïa porte le poids d'un passé qui a tout ravagé. Elle croise un jeune homme au sourire qui cache un terrible secret."
+  },
+  {
+    "id": 22,
+    "titre": "Alice & Noël",
+    "auteur": "J. K. Fournier",
+    "etat": "pal",
+    "type": "romance",
+    "couverture": "images/alice-noel.jpg",
+    "resume": "Résumé à compléter."
+  },
+  {
+    "id": 23,
+    "titre": "La Théorie des couleurs",
+    "auteur": "Mazey Eddings",
+    "etat": "pal",
+    "type": "romance",
+    "couverture": "images/la-theorie-des-couleurs.jpg",
+    "resume": "Tilly veut changer de vie et accepte un stage dans la start-up de sa sœur, en Europe."
+  },
+  {
+    "id": 24,
+    "titre": "Kingdom of Quartz 4",
+    "auteur": "Bomhat",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/kingdom-of-quartz-4.jpg",
+    "resume": "Blue est une orpheline aux ailes noires, rejetée par les siens, qui rêve de devenir un Ange pour protéger le royaume de Quartz contre les Démons."
+  },
+  {
+    "id": 25,
+    "titre": "Kingdom of Quartz 5",
+    "auteur": "Bomhat",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/kingdom-of-quartz-5.jpg",
+    "resume": "Dernier tome de la série, qui compte cinq volumes : l'histoire de Blue, l'orpheline aux ailes noires, touche à sa fin."
+  },
+  {
+    "id": 26,
+    "titre": "Le Château solitaire dans le miroir 1",
+    "auteur": "Tomo Taketomi",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/le-chateau-solitaire-dans-le-miroir-1.jpg",
+    "resume": "Adaptation en manga du roman de Mizuki Tsujimura. Kokoro, collégienne qui n'ose plus aller en classe, voit son miroir s'illuminer et y entre : elle découvre un château où six autres jeunes ont aussi accès, avec pour mission de trouver une clé qui exauce un vœu."
+  },
+  {
+    "id": 27,
+    "titre": "Le Château solitaire dans le miroir 2",
+    "auteur": "Tomo Taketomi",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/le-chateau-solitaire-dans-le-miroir-2.jpg",
+    "resume": "Tome 2 de l'adaptation en manga du roman de Mizuki Tsujimura."
+  },
+  {
+    "id": 28,
+    "titre": "Le Château solitaire dans le miroir 3",
+    "auteur": "Tomo Taketomi",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/le-chateau-solitaire-dans-le-miroir-3.jpg",
+    "resume": "Tome 3 de l'adaptation en manga du roman de Mizuki Tsujimura."
+  },
+  {
+    "id": 29,
+    "titre": "Le Château solitaire dans le miroir 4",
+    "auteur": "Tomo Taketomi",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/le-chateau-solitaire-dans-le-miroir-4.jpg",
+    "resume": "Tome 4 de l'adaptation en manga du roman de Mizuki Tsujimura."
+  },
+  {
+    "id": 30,
+    "titre": "Le Château solitaire dans le miroir 5",
+    "auteur": "Tomo Taketomi",
+    "etat": "wishlist",
+    "type": "manga",
+    "couverture": "images/le-chateau-solitaire-dans-le-miroir-5.jpg",
+    "resume": "Tome 5 de l'adaptation en manga du roman de Mizuki Tsujimura."
   }
 ]
